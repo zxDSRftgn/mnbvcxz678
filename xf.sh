@@ -2,7 +2,7 @@
 ##
 
 # Set ARG
-UUID=5a3f6e6d-0648-4b39-b27d-36d8299e719
+UUID=6b34d5f8-e2fd-496d-b5ee-fbf2a808a3ce
 ARCH="64"
 DOWNLOAD_PATH="/tmp/v2ray"
 
@@ -69,7 +69,7 @@ cat <<EOF >/etc/v2ray/config.json
 		"streamSettings": {
 			"network": "ws",
 			"wsSettings": {
-					"path": "/$UUID-vless"
+					"path": 6b34d5f8-e2fd-496d-b5ee-fbf2a808a3ce
 				}
 			}
 		}
